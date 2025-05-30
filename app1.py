@@ -22,8 +22,8 @@ with col2:
     """)
 
 st.markdown("""
-**Mentor:** Ms. Sindhu A S  
-**Student:** Nithin G
+**Mentor:** Prof. Sindhu A S  
+**Students:** Nithin G, Mohammed Shoaib, Tarun P and Raksha R
 ---
 """)
 
@@ -102,21 +102,18 @@ with st.expander("Septoria-leaf-spot"):
 with st.expander("Yellow-leaf-curl-virus"):
     st.write("Upward curling leaves, yellowing, and stunted plants. Spread by whiteflies.")
 
-# --- MODEL PERFORMANCE (Demo Values) ---
-st.subheader("📊 Model Performance Metrics")
-metrics = {"Accuracy": 0.94, "F1 Score": 0.92}
-fig, ax = plt.subplots()
-ax.bar(metrics.keys(), metrics.values(), color=["#007ACC", "#F17C0E"])
-ax.set_ylim(0, 1.1)
-ax.set_ylabel("Score")
-ax.set_title("Model Performance")
-st.pyplot(fig)
 
 
-st.title("About Me")
+
+# --- ABOUT US SECTION ---
+st.title("About Us")
 st.markdown("""
-    - 👨‍🎓 2nd Year ISE Student  
-    - 🧠 Interested in AI/ML  
-    - 📍 JSSSTU, Mysuru  
-    - 🌱 Building smart solutions for agriculture  
-    """)
+Team Members: Nithin G, Mohammed Shoaib, Tarun P and Raksha R
+
+We are a team of four 2nd-year Information Science students from JSS Science and Technology University, Mysuru.  
+Our shared interest in Artificial Intelligence and its applications in agriculture led us to develop this project —  
+**"Tomato Leaf Disease Detection Using Deep Learning"**.
+
+This project was built collaboratively, where team members contributed to model development, frontend design, backend integration, and data handling.  
+Our goal is to leverage AI to support farmers and researchers in identifying tomato plant diseases early, effectively, and efficiently.
+""")
