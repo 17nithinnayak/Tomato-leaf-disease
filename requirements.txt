@@ -1,5 +1,5 @@
 streamlit==1.33.0
 google-cloud-storage
-tensorflow
+tensorflow>=2.11.0,<2.13.0
 numpy
 Pillow
