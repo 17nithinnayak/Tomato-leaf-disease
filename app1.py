@@ -31,7 +31,7 @@ st.markdown("""
 
 
 # --- CLASS LABELS ---
-class_labels = ['Bacterial-spot', 'Early-blight', 'Healthy', 'sh',
+class_labels = ['Bacterial-spot', 'Early-blight', 'Healthy', 'Late-blight',
                 'Leaf-mold', 'Mosaic-virus', 'Septoria-leaf-spot', 'Yellow-leaf-curl-virus']
 
 # --- LOAD MODEL ---
